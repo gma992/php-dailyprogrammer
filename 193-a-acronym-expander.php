@@ -29,4 +29,13 @@ gl - good luck
 imo - in my opinion
 */
 
+$translator  = "imo that was wp. Anyway I've g2g";
+
+$input = array("imo", "wp", "g2g");
+$output   = array("in my opinion", "well played", "got to go");
+
+$newphrase = str_replace($input, $output, $translator);
+
+echo $newphrase;
+
 ?>
